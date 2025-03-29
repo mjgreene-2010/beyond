@@ -8,7 +8,7 @@ import PageNotFound from "./pages/PageNotFound";
 
 import Nav from "./components/Nav";
 
-function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -23,6 +23,6 @@ function App() {
       </BrowserRouter>
     </>
   );
-}
+};
 
 export default App;
