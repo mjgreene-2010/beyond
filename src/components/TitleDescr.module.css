@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  justify-self: center;
+  margin: 2em 0;
+  word-wrap: break-word;
+  font-size: 2.5em;
+}
+
+.description {
+  display: flex;
+  justify-self: center;
+}

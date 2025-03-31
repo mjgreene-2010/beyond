@@ -1,10 +1,17 @@
-import styles from "./About.module.css";
 import Card from "../components/Cards";
+import Button from "../components/Button";
+import TitleDescr from "../components/TitleDescr";
 
 const Homepage = () => {
+  const title = "Seamless Global Relations & Diversification Made Easy";
+
+  const description =
+    "Expert consulting for stress-free international moves and global opportunities";
+
   return (
-    <main className={styles.homepage}>
-      <h1>Homepage</h1>
+    <main>
+      <TitleDescr title={title} descripton={description}></TitleDescr>
+      <Button type="primary">Get Started</Button>
       <Card></Card>
     </main>
   );

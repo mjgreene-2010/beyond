@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  justify-self: center;
+  border-radius: 1em;
+  padding: 1.5em 4em;
+  border: none;
+}
+
+.primary {
+  font-size: 1em;
+  background-color: rgb(95, 147, 173);
+  color: white;
+  margin: 5em 0;
+}

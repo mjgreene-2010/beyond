@@ -1,7 +1,11 @@
 .navContainer {
   display: flex;
-  margin: 0.5em 0;
-  position: sticky;
+  margin: 0 0 0.5em 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(241, 240, 240);
+  padding: 0.5em 0;
 }
 
 .navLeft {
